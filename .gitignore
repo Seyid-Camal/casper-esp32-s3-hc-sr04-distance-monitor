@@ -1,0 +1,25 @@
+# Local ESP32 settings (Wi-Fi credentials and local server address)
+secrets.h
+**/secrets.h
+
+# Python environments / caches
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Local logs and OS/editor files
+*.log
+.DS_Store
+.vscode/
+.idea/
